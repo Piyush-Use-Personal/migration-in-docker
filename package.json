@@ -1,0 +1,16 @@
+{
+  "name": "docker-migrations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "migrate": "./node_modules/.bin/db-migrate up"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "db-migrate": "^0.11.13"
+  }
+}
